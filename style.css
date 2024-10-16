@@ -31,4 +31,23 @@ body{
     height: 2.3rem;
 
  }
- 
+ .post-popular{
+    text-align: right;
+    padding-right: 50px;
+   
+ } 
+ .post-popular > p{
+    background-color: #02A28F;
+ }
+
+
+ .banner-aticle{
+   /* background-image: url(./asssets/imagem1.jpg); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+ }
+ #banner_texto{
+    color: #FFF; 
+    background-image: url(./asssets/imagem1.jpg); 
+ }
